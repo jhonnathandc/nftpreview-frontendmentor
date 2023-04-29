@@ -1,0 +1,140 @@
+.card-bg {
+  background-color: $blue-dark;
+
+  .card {
+    background-color: $blue-normal;
+    border-radius: 15px;
+    max-width: 350px;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+
+    .image {
+      margin: 24px;
+      position: relative;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &:hover {
+        &::before {
+          content: "";
+          display: block;
+          background-color: $cyan;
+          max-width: 302px;
+          width: 100%;
+          max-height: 302px;
+          height: 100%;
+          border-radius: 8px;
+          position: absolute;
+          opacity: 50%;
+        }
+
+        &::after {
+          content: "";
+          display: block;
+          background-image: url("../../assets/icon-view.svg");
+          width: 48px;
+          height: 48px;
+          position: absolute;
+        }
+      }
+
+      img {
+        border-radius: 8px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .content {
+    padding: 0px 24px 32px 24px;
+
+    h1 {
+      display: inline-block;
+      @include type(h1, desktop);
+      color: $white;
+      margin-bottom: 16px;
+      cursor: pointer;
+      transition: 0.3s ease;
+
+      &:hover {
+        color: $cyan;
+      }
+    }
+
+    p {
+      @include type(p1, desktop);
+      color: $purple-light;
+      margin-bottom: 24px;
+    }
+
+    .info {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .coin {
+        @include type(p3, desktop);
+        color: $cyan;
+
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        &::before {
+          content: "";
+          display: inline-block;
+          background-image: url("../../assets/icon-ethereum.svg");
+          width: 11px;
+          height: 18px;
+        }
+      }
+
+      .day {
+        @include type(p2, desktop);
+        color: $purple-light;
+
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        &::before {
+          content: "";
+          display: inline-block;
+          background-image: url("../../assets/icon-clock.svg");
+          width: 17px;
+          height: 17px;
+        }
+      }
+    }
+
+    .person {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+
+      img {
+        width: 33px;
+        height: 33px;
+        border: 1px solid $white;
+        border-radius: 50%;
+      }
+
+      p {
+        margin-bottom: 0px;
+        @include type(p2, desktop);
+        color: $purple-light;
+
+        span {
+          color: $white;
+          cursor: pointer;
+          transition: 0.3s ease;
+
+          &:hover {
+            color: $cyan;
+          }
+        }
+      }
+    }
+  }
+}

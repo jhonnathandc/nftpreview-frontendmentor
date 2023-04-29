@@ -1,15 +1,15 @@
-# QR Code - FrontEnd Mentor
+# NFT Preview Card - FrontEnd Mentor
 
 This project is part of the challenges of [FrontEnd Mentor](https://www.frontendmentor.io/).
 
-[Access the website here.](https://interactive-frontendmentor.vercel.app/)
+[Access the website here.](https://nftpreview-frontendmentor.vercel.app/)
 <br>
 <br>
-[Access the challenge here.](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI)
+[access the challenge on the FrontEnd Mentor here.](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U)
 
 ## Demonstração
 
-![Wireframe - 1](https://user-images.githubusercontent.com/82620787/235258939-33e59af7-a079-40a2-ab34-a178e893df29.png)
+![Wireframe - 1](https://user-images.githubusercontent.com/82620787/235288053-9179feed-ce48-4712-96ce-f4a5fb2d3bfb.png)
 
 ## Mais Informações
 
